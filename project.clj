@@ -10,6 +10,7 @@
                  [clj-rss "0.1.9"]
                  [ring/ring-jetty-adapter "1.3.2"]]
 
+  :main blog.handler
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler blog.handler/app}
   :profiles
