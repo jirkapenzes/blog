@@ -1,0 +1,113 @@
+body {
+  background-color:rgb(248, 248, 248);
+}
+
+html, button, input, select, textarea,
+.wf-active, .pure-g [class *= "pure-u"] {
+  font-family: 'Trykker', serif;
+}
+
+#header {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 5px;
+  border-bottom: solid 1px rgb(204, 204, 204);
+}
+
+#header h1 {
+  padding: 0;
+  margin 0;
+  font-size: 16pt;
+}
+
+#header a {
+  text-decoration: none;
+  color: #266ca0;
+}
+
+#social-links {
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#social-links img {
+  margin-left: 5px;
+}
+
+#content {
+  max-width: 700px;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+}
+
+.post h1 {
+  font-size:28pt;
+  font-weight: normal;
+}
+
+.post h1 a {
+  color: black;
+  text-decoration:none;
+  padding: 5px 0 5px 0;
+}
+
+.post h1 a:hover {
+  color: white;
+  text-decoration:none;
+  background-color: #266ca0;
+  padding: 5px 0 5px 0;
+}
+
+.post p {
+  font-size: 14pt;
+  line-height: 160%;:
+}
+
+.post a {
+  color: #266ca0;
+}
+
+.post a:hover {
+  color: white;
+  background-color: #266ca0;
+}
+
+.post .post-info {
+  color: rgb(204, 204, 204);
+}
+
+#archiv {
+  margin-top: 100px;
+  border-top: solid 1px rgb(204, 204, 204);
+}
+
+#archiv h1 {
+  color: #9d9d9d;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+#archiv .archiv-post h1, .archiv-date {
+  font-size: 14pt;
+}
+
+#archiv a {
+  color: #9d9d9d;
+  text-decoration:none;
+}
+
+#archiv a:hover {
+  color: #266ca0;
+   text-decoration:underline
+}
+
+#archiv .archiv-date {
+  margin-right: 20px;
+}
+
+#footer {
+  color: #9d9d9d;
+  margin: 0px auto 5px auto;
+  max-width: 700px;
+}
