@@ -6,8 +6,8 @@
                ;(include-js "/js/google-analytics.js")
                (include-js "../js/webfont.js")
                (include-js "../js/highlight.pack.js")
-               (include-css "//yui.yahooapis.com/combo?pure/0.6.0/base-min.css&pure/0.6.0/grids-min.css&pure/0.6.0/grids-responsive-min.css")
                (include-css "//fonts.googleapis.com/css?family=Trykker")
+               (include-css "../css/pure-min.css")
                (include-css "../css/highlightjs-github.css")
                (include-css "../css/screen.css")])
 
