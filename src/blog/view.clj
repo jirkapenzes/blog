@@ -48,13 +48,14 @@
     [:span {:class "archiv-date" } (long-date (:publish-date post)) ]
     (link (post-url post) (:title post))]])
 
-(defn- discussion [post] [:p ""])
+(defn- discussion [post]
+  [:div {:id "disqus_thread" }])
+
 (defn- social-share [post] [:p ""])
 
 (defn full-post [p]
   [:section
    (post p)
-   (social-share p)
    (discussion p)])
 
 (defn posts [posts]

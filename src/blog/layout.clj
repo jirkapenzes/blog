@@ -8,6 +8,7 @@
                (include-js "../js/highlight.pack.js")\
                (include-js "../js/twitter-share-button.js")
                (include-js "../js/facebook-share-button.js")
+               (include-js "../js/disqus.js")
                (include-css "//fonts.googleapis.com/css?family=Trykker")
                (include-css "../css/pure-min.css")
                (include-css "../css/highlightjs-github.css")
