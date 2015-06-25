@@ -23,6 +23,13 @@
        :data-via "jirkapenzes"
        :href (post-absolute-url post) } "Tweet"])
 
+(defn facebook-button [post]
+  [:a {:class "fb-like"
+         :data-href (post-absolute-url post)
+         :data-layout "button_count" :data-action "like"
+         :data-show-faces "true" :data-share "true"
+         }])
+
 (defn post [post & active]
   [:div {:class "post"}
    [:h1 (if active
@@ -32,7 +39,8 @@
     (str (short-date (:publish-date post)) " by " (:author post)) ]
    [:div (:body post)]
    [:div {:class "social-share"}
-    (tweet-button post)]])
+    (tweet-button post)
+    (facebook-button post)]])
 
 (defn archiv-post [post]
   [:div {:class "archiv-post"}

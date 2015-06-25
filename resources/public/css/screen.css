@@ -76,6 +76,15 @@ html, button, input, select, textarea,
   color: rgb(204, 204, 204);
 }
 
+.post .social-share {
+  font-size: 1px;
+  margin-bottom: 20px;
+}
+
+.post .social-share .fb-like {
+  margin-left: 20px;
+}
+
 #archiv {
   margin-top: 100px;
   border-top: solid 1px rgb(204, 204, 204);

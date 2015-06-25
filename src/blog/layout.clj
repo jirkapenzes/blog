@@ -7,6 +7,7 @@
                (include-js "../js/webfont.js")
                (include-js "../js/highlight.pack.js")\
                (include-js "../js/twitter-share-button.js")
+               (include-js "../js/facebook-share-button.js")
                (include-css "//fonts.googleapis.com/css?family=Trykker")
                (include-css "../css/pure-min.css")
                (include-css "../css/highlightjs-github.css")
@@ -39,6 +40,7 @@
      [:a {:href "/"} [:h1 (:title blog)]]]
     [:div {:id "social-links" :class "pure-u-1 pure-u-sm-1-2"}
      (map make-icon-link (:links blog))]]
+   [:div {:id "fb-root"}]
    [:div {:id "content"}
     content]
    [:div {:id "footer"}
