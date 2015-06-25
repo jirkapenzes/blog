@@ -27,8 +27,12 @@
   [:a {:class "fb-like"
          :data-href (post-absolute-url post)
          :data-layout "button_count" :data-action "like"
-         :data-show-faces "true" :data-share "true"
-         }])
+         :data-show-faces "true" :data-share "true"}])
+
+(defn- social-share [post]
+  [:div {:class "social-share"}
+    (tweet-button post)
+    (facebook-button post)])
 
 (defn post [post & active]
   [:div {:class "post"}
@@ -38,9 +42,7 @@
    [:div {:class "post-info"}
     (str (short-date (:publish-date post)) " by " (:author post)) ]
    [:div (:body post)]
-   [:div {:class "social-share"}
-    (tweet-button post)
-    (facebook-button post)]])
+   (social-share post)])
 
 (defn archiv-post [post]
   [:div {:class "archiv-post"}
@@ -50,8 +52,6 @@
 
 (defn- discussion [post]
   [:div {:id "disqus_thread" }])
-
-(defn- social-share [post] [:p ""])
 
 (defn full-post [p]
   [:section
