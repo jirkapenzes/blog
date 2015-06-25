@@ -3,7 +3,7 @@
             [hiccup.page :refer :all]))
 
 (def includes [(include-js "//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js")
-               (include-js "/js/google-analytics.js")
+               (include-js "../js/google-analytics.js")
                (include-js "../js/webfont.js")
                (include-js "../js/highlight.pack.js")\
                (include-js "../js/twitter-share-button.js")
