@@ -1,5 +1,6 @@
 (ns blog.handler
-  (:use ring.util.response)
+  (:use ring.util.response
+        org.httpkit.server)
   (:require [blog.posts :as posts]
             [blog.view :as view]
             [blog.layout :as layout]
@@ -42,6 +43,7 @@
 (def app
   (wrap-defaults app-routes site-defaults))
 
-(defn -main []
-  (let [port (Integer/parseInt (get (System/getenv) "PORT" "5000"))]
-    (jetty/run-jetty app-routes {:port port})))
+(defn -main [& args]
+  (let [port (Integer/parseInt (get (System/getenv) "OPENSHIFT_CLOJURE_HTTP_PORT" "8080"))]
+    (let [ip (get (System/getenv) "OPENSHIFT_CLOJURE_HTTP_IP" "0.0.0.0")]
+  (run-server app {:ip ip :port port}))))
