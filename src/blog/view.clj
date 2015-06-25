@@ -5,7 +5,7 @@
             [blog.layout :as layout])
   (:import [java.util Locale]))
 
-(def short-date-format  (with-locale (formatter "d. MMMM ") (Locale. "cs")))
+(def short-date-format  (with-locale (formatter "d. MMMM yyyy") (Locale. "cs")))
 (def long-date-format  (with-locale (formatter "dd. MM. yyyy ") (Locale. "cs")))
 (defn- short-date [date] (unparse short-date-format date))
 (defn- long-date [date] (unparse long-date-format date))
