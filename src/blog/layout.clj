@@ -5,7 +5,8 @@
 (def includes [(include-js "//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js")
                (include-js "/js/google-analytics.js")
                (include-js "../js/webfont.js")
-               (include-js "../js/highlight.pack.js")
+               (include-js "../js/highlight.pack.js")\
+               (include-js "../js/twitter-share-button.js")
                (include-css "//fonts.googleapis.com/css?family=Trykker")
                (include-css "../css/pure-min.css")
                (include-css "../css/highlightjs-github.css")
@@ -16,7 +17,10 @@
                     ["Twitter" "https://twitter.com/jirkapenzes" "../img/icon-twitter.png"]
                     ["LinkedIn" "http://www.linkedin.com/in/jirkapenzes" "../img/icon-linkedin.png"]
                     ["Instagram" "http://www.instagram.com/jirkapenzes" "../img/icon-instagram.png"]
-                    ["Rss" "/rss.xml" "../img/icon-rss.png"]]})
+                    ["Rss" "/rss.xml" "../img/icon-rss.png"]]
+            :url "http://blog.penzes.cz"})
+
+(defn domain-name [] (:url blog))
 
 (defn- render-head []
   `[:head

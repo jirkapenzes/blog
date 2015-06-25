@@ -1,7 +1,8 @@
 (ns blog.view
   (:require [clj-time.format :refer [formatter unparse with-locale formatters]]
             [hiccup.core :refer :all]
-            [hiccup.page :refer :all])
+            [hiccup.page :refer :all]
+            [blog.layout :as layout])
   (:import [java.util Locale]))
 
 (def short-date-format  (with-locale (formatter "d. MMMM ") (Locale. "cs")))
@@ -10,10 +11,17 @@
 (defn- long-date [date] (unparse long-date-format date))
 (defn- link [href name] [:a {:href href} name])
 (defn- post-url [post] (str "/posts/" (:file-name post)))
+(defn- post-absolute-url [post] (str (layout/domain-name) (post-url post)))
 
 (def texts
   { :archiv "Starší články"
     :hard-link "Trvalý odkaz na článek" })
+
+(defn tweet-button [post]
+  [:a {:class "twitter-share-button"
+       :data-url (post-absolute-url post)
+       :data-via "jirkapenzes"
+       :href (post-absolute-url post) } "Tweet"])
 
 (defn post [post & active]
   [:div {:class "post"}
@@ -22,7 +30,9 @@
           (:title post))]
    [:div {:class "post-info"}
     (str (short-date (:publish-date post)) " by " (:author post)) ]
-   [:div (:body post)]])
+   [:div (:body post)]
+   [:div {:class "social-share"}
+    (tweet-button post)]])
 
 (defn archiv-post [post]
   [:div {:class "archiv-post"}
