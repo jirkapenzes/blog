@@ -25,14 +25,14 @@
 
 (defn facebook-button [post]
   [:a {:class "fb-like"
-         :data-href (post-absolute-url post)
-         :data-layout "button_count" :data-action "like"
-         :data-show-faces "true" :data-share "true"}])
+       :data-href (post-absolute-url post)
+       :data-layout "button_count" :data-action "like"
+       :data-show-faces "true" :data-share "true"}])
 
 (defn- social-share [post]
   [:div {:class "social-share"}
-    (tweet-button post)
-    (facebook-button post)])
+   (tweet-button post)
+   (facebook-button post)])
 
 (defn post [post & active]
   [:div {:class "post"}
