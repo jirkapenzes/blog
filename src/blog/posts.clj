@@ -37,7 +37,7 @@
 
 (def postprocessing-fn
   { :title trim
-    :tags #(map trim (split % #","))
+    :tags #(set (map trim (split % #",")))
     :publish-date #(parse (formatter "dd.MM.yyyy") (trim %))
     :body md-to-html-string
     :file-name identity })
@@ -60,3 +60,7 @@
 
 (defn find-by-name [name]
   (load-post (find-file name)))
+
+(defn find-by-tag [tag]
+  (->> (find-all)
+       (filter #(contains? (:tags %) tag))))

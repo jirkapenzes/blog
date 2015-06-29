@@ -12,6 +12,7 @@
 (defn- link [href name] [:a {:href href} name])
 (defn- post-url [post] (str "/posts/" (:file-name post)))
 (defn- post-absolute-url [post] (str (layout/domain-name) (post-url post)))
+(defn- tag-link [tag] (link (str "/tags/" tag) tag))
 
 (def texts
   { :archiv "Starší články"
@@ -37,6 +38,11 @@
 (defn- discussion [post]
   [:div {:id "disqus_thread" }])
 
+(defn- tags [post]
+  [:div {:class "tags"}
+   (map #(vector :span {:class "tag"}
+                 (tag-link %)) (:tags post))])
+
 (defn post [post & active]
   [:div {:class "post"}
    [:h1 (if active
@@ -45,6 +51,7 @@
    [:div {:class "post-info"}
     (str (short-date (:publish-date post)) " by " (:author post)) ]
    [:div (:body post)]
+   (tags post)
    (social-share post)])
 
 (defn short-post [post]
@@ -53,7 +60,7 @@
     [:span {:class "archiv-date" } (long-date (:publish-date post)) ]
     (link (post-url post) (:title post))]])
 
-(defn short-post-list [title posts]
+(defn post-list [title posts]
   [:div {:id "archiv"}
    [:h2 title]
    (map short-post posts)])
@@ -70,5 +77,5 @@
       (post top-post :active)
       (link (post-url top-post) (:hard-link texts))])
 
-   (short-post-list
+   (post-list
     (:archiv texts) (next posts))])

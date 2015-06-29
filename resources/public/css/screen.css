@@ -40,6 +40,10 @@ html, button, input, select, textarea,
   padding: 20px;
 }
 
+.post {
+  padding-bottom: 30px;
+}
+
 .post h1 {
   font-size:28pt;
   font-weight: normal;
@@ -85,9 +89,15 @@ html, button, input, select, textarea,
   margin-left: 20px;
 }
 
+.post .tags {
+  margin-bottom: 10px;
+}
+
+.post .tags .tag {
+  margin-right: 10px;
+}
+
 #archiv {
-  margin-top: 100px;
-  border-top: solid 1px rgb(204, 204, 204);
 }
 
 #archiv h1 {

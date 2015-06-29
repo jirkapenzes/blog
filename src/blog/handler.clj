@@ -16,6 +16,11 @@
        (take-last n)
        (reverse)))
 
+(defn posts-by-tag [tag]
+  (->> (posts/find-by-tag tag)
+       (sort-by :publish-date)
+       (reverse)))
+
 (defn default-page []
   (->> (last-posts 10)
        (view/posts)
@@ -24,6 +29,11 @@
 (defn post-page [post-name]
   (->> (posts/find-by-name post-name)
        (view/full-post)
+       (layout/render)))
+
+(defn tag-page [tag]
+  (->> (posts-by-tag tag)
+       (view/post-list (str "Tag: " tag))
        (layout/render)))
 
 (def rss (rss/channel-xml
@@ -36,6 +46,7 @@
 (defroutes app-routes
   (GET "/" [] (default-page))
   (GET "/posts/:post-name" [post-name] (post-page post-name))
+  (GET "/tags/:tag" [tag] (tag-page tag))
   (GET "/rss.xml" [] (response rss))
   (route/resources "/")
   (route/not-found (default-page)))
