@@ -34,6 +34,9 @@
    (tweet-button post)
    (facebook-button post)])
 
+(defn- discussion [post]
+  [:div {:id "disqus_thread" }])
+
 (defn post [post & active]
   [:div {:class "post"}
    [:h1 (if active
@@ -44,14 +47,16 @@
    [:div (:body post)]
    (social-share post)])
 
-(defn archiv-post [post]
+(defn short-post [post]
   [:div {:class "archiv-post"}
    [:h1
     [:span {:class "archiv-date" } (long-date (:publish-date post)) ]
     (link (post-url post) (:title post))]])
 
-(defn- discussion [post]
-  [:div {:id "disqus_thread" }])
+(defn short-post-list [title posts]
+  [:div {:id "archiv"}
+   [:h2 title]
+   (map short-post posts)])
 
 (defn full-post [p]
   [:section
@@ -65,6 +70,5 @@
       (post top-post :active)
       (link (post-url top-post) (:hard-link texts))])
 
-   [:div {:id "archiv"}
-    [:h2 (:archiv texts)]
-    (map archiv-post (next posts))]])
+   (short-post-list
+    (:archiv texts) (next posts))])
