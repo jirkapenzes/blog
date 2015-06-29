@@ -37,7 +37,7 @@
 
 (def postprocessing-fn
   { :title trim
-    :tags #(map trim (split % #":"))
+    :tags #(map trim (split % #","))
     :publish-date #(parse (formatter "dd.MM.yyyy") (trim %))
     :body md-to-html-string
     :file-name identity })
