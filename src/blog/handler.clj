@@ -10,10 +10,9 @@
             [clj-rss.core :as rss]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
-(defn last-posts [n]
+(defn last-posts []
   (->> (posts/find-all)
        (sort-by :publish-date)
-       (take-last n)
        (reverse)))
 
 (defn posts-by-tag [tag]
@@ -22,7 +21,7 @@
        (reverse)))
 
 (defn default-page []
-  (->> (last-posts 10)
+  (->> (last-posts)
        (view/posts)
        (layout/render)))
 
@@ -43,13 +42,15 @@
                  :title (:title %)
                  :description (:body %)) (last-posts 10))))
 
+
 (defroutes app-routes
   (GET "/" [] (default-page))
   (GET "/posts/:post-name" [post-name] (post-page post-name))
   (GET "/tags/:tag" [tag] (tag-page tag))
   (GET "/rss.xml" [] (response rss))
   (route/resources "/")
-  (route/not-found (default-page)))
+  ;(route/not-found (default-page))
+  )
 
 (def app
   (wrap-defaults app-routes site-defaults))
