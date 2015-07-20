@@ -42,15 +42,13 @@
                  :title (:title %)
                  :description (:body %)) (last-posts 10))))
 
-
 (defroutes app-routes
   (GET "/" [] (default-page))
   (GET "/posts/:post-name" [post-name] (post-page post-name))
   (GET "/tags/:tag" [tag] (tag-page tag))
   (GET "/rss.xml" [] (response rss))
   (route/resources "/")
-  ;(route/not-found (default-page))
-  )
+  (route/not-found (default-page)))
 
 (def app
   (wrap-defaults app-routes site-defaults))
