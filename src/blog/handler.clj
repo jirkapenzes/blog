@@ -40,7 +40,7 @@
            :description "Don’t talk … just do it!"}
           (map #(hash-map
                  :title (:title %)
-                 :description (:body %)) (last-posts 10))))
+                 :description (:body %)) (last-posts))))
 
 (defroutes app-routes
   (GET "/" [] (default-page))
