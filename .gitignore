@@ -8,3 +8,9 @@ pom.xml.asc
 *.class
 /.lein-*
 /.nrepl-port
+
+## Directory-based project format:
+.idea/
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio
+*.iml
