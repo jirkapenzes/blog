@@ -1,8 +1,8 @@
+---
 title: Začátky s Clojure očima OOP programátora
 publish-date: 29.06.2015
 tags: dev, clojure
-
-body:
+---
 Článek je orientovaný zejména na prvotní zkušenosti s kódem napsaným v Clojure.
 Celá platforma přináší nespočet výhod a zajímavých vlastností,
 které stojí za to poznat. Jaké jsou ale začátky?
