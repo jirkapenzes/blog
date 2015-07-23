@@ -56,8 +56,7 @@
     (str (short-date (:publish-date post)) " by " (:author post)) ]
    [:div (:body post)]
    (tags post)
-   (social-share post)
-   (change-title (:title post))])
+   (social-share post)])
 
 (defn short-post [post]
   [:div {:class "archiv-post"}
