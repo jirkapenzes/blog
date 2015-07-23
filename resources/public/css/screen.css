@@ -8,7 +8,7 @@ html, button, input, select, textarea,
 }
 
 #header {
-  max-width: 750px;
+  max-width: 760px;
   margin: 0 auto;
   padding: 0 5px;
   border-bottom: solid 1px rgb(204, 204, 204);
@@ -35,7 +35,7 @@ html, button, input, select, textarea,
 }
 
 #content {
-  max-width: 700px;
+  max-width: 710px;
   margin: 20px auto 0 auto;
   padding: 20px;
 }
@@ -63,7 +63,7 @@ html, button, input, select, textarea,
 }
 
 .post p {
-  font-size: 14pt;
+  font-size: 15pt;
   line-height: 160%;:
 }
 
@@ -122,7 +122,7 @@ html, button, input, select, textarea,
 }
 
 #archiv .archiv-date {
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 #footer {
