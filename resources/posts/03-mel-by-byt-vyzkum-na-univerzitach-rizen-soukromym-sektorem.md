@@ -19,7 +19,7 @@ Však to znáte, často vám myšlenka přeroste přes hlavu v něco většího,
 
 ## Problém
 
-A tady je právě ten kámen úrazu. Často se setkávám s tím, že se musí obhájovat myšlenky vůči současnému stavu komerčního sektoru, než se do toho můžete vůbec pustit. Proč? Vědecké myšlenky jsou často velmi křehké a ze začátku neuchyptelné a je potřeba je řádně rozvinout a prozkoumat. A to chce čas. Kde jinde by tomu mělo být, než na univerzitách?
+A tady je právě ten kámen úrazu. Často se setkávám s tím, že se musí obhájovat myšlenky vůči současnému stavu komerčního sektoru, než se do toho můžete vůbec pustit. Proč? Vědecké myšlenky jsou přeci často velmi křehké a ze začátku neuchyptelné a je potřeba je řádně rozvinout a prozkoumat. A to chce čas. Kde jinde by tomu mělo být, než na univerzitách?
 
 Ano, u zrodu každé myšlenky se z počátku rodí spousta důvodu, proč se do toho vlastně nemá smysl pouštět. Ale také tu je jedna, která říká, že to bude výzva s možným potencionálem. Asi si říkáte - a co když to nevyjde? Nevadí, sepíšeme článek a dáme o tom vědět ostatním. I slepé cesty je nutné prošlapávat a tím udávat směr ostatním cestičkám.
 
@@ -37,4 +37,4 @@ Zpátky k problému. Mrzí mě, že už se na univerzitách netvoří věda, tak
 
 Možná je to jen můj špatný pohled na věc …
 
-**Doktorandi, dělejte vědu a stůjte si za svými nápady! Nebo vám vaši práci kompletně sebere komerční sektor!**
+**Doktorandi, dělejte vědu a stůjte si za svými nápady! Nebo vám vaší práci kompletně sebere komerční sektor!**
