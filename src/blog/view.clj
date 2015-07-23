@@ -43,6 +43,10 @@
    (map #(vector :span {:class "tag"}
                  (tag-link %)) (:tags post))])
 
+(defn- change-title [title]
+  [:script {  }
+   (str "document.title = '" title "';")])
+
 (defn post [post & active]
   [:div {:class "post"}
    [:h1 (if active
@@ -52,7 +56,8 @@
     (str (short-date (:publish-date post)) " by " (:author post)) ]
    [:div (:body post)]
    (tags post)
-   (social-share post)])
+   (social-share post)
+   (change-title (:title post))])
 
 (defn short-post [post]
   [:div {:class "archiv-post"}
