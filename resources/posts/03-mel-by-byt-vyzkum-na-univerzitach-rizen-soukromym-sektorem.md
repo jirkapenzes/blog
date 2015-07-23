@@ -1,6 +1,6 @@
 ---
 title: Měl by být výzkum na univerzitách řízen soukromým sektorem?
-publish-date: 22.07.2015
+publish-date: 23.07.2015
 tags: phd, science, školství
 ---
 Na úvod hned prásknu svou odpověď. Ne, neměl. Pokusím se svůj názor a pohled na věc lehce rozvést. Kdo nerad čte, tak má odpověď v kostce zní: Věda je o bádání a o zkoumání. A ne o dělání předem připravených úkolů.
