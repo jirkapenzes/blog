@@ -2,9 +2,8 @@
   (:use markdown.core)
   (:require [clojure.java.io :as io]
             [clj-time.format :refer (formatter parse)]
-            [clojure.string :refer (trim split replace)])
-  (:import [java.io File]
-           [java.io BufferedReader StringReader]))
+            [clojure.string :refer (split-lines trim split)])
+  (:import [java.io File]))
 
 (def posts-directory (io/file "resources/posts/"))
 (def posts-files (filter #(not (or (.isDirectory %) (= (.getName %) ".DS_Store")))
@@ -30,19 +29,18 @@
                        content)}))))
 
 (defn parse-header [header]
-  (->> (line-seq (BufferedReader. (StringReader. header)))
-       (map parse-header-line)
+  (->> (map parse-header-line header)
        (into {})))
 
 (defn parse-file [file]
-  (let [p (re-find #"---[\s]+([\s\S]+)---\s([\s\S]+)" (slurp file))]
-    {:header (get p 1)
-     :body (get p 2)}))
+  (let [splitted-file (split-lines (slurp file))]
+    {:header  (rest (take 4 (split-lines (slurp file))))
+     :body (reduce #(str %1 "\r\n" %2) (drop 5 (split-lines (slurp file))))}))
 
 (defn load-post [file]
   (-> (let [p (parse-file file)]
         (into (parse-header (:header p)) {:body (:body p)}))
-      (into {:file-name (replace (.getName file) #"\.[^.]+$" "")})
+      (into {:file-name (clojure.string/replace (.getName file) #"\.[^.]+$" "")})
       (postprocessing)))
 
 (defn find-all []
@@ -55,4 +53,3 @@
 
 (defn find-by-name [name]
   (load-post (find-file (str name ".md"))))
-
