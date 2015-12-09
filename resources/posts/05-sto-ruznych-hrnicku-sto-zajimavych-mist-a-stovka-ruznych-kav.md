@@ -53,7 +53,7 @@ Paralelně se začátkem výzvy jsem přestal používat Swarm. Takže mi to tro
 
 ## Průběh
 
-První padesátka byla celkem v pohodě. Chodím celkem často do kaváren nebo obecně do míst, kde dělají kávu. Takže jsem ze začátku necítil žádné změny. Zkrátka to ještě nebyla taková výzva. Po padesátce to začínalo být horší. Spousty oblíbených nebo blízkých míst jsem měl již vybrané a bylo potřeba podstatně více experimentovat. Začínala challenge. Občas vůbec nevycházelo načasování nebo se mi zkrátka fotka nepovedla. Začínalo se dříve stmívat a také se zjevil na okamřik i ten zatracený sníh! Na rovinu a upřímně říkám, že jsem si občas fotil i fotky jako “rezervu”. Často se mi stávalo, že jsem za jeden den navštívil více nových míst a na každém ochutnal kávu. Můj cíl byl každý den publikovat fotku a z tohoto tempa nevypadnout, nepřerušit to. Pětkrát jsem sáhl do těchto zásob. Zkrátka to nevyšlo, nicméně oněch pět fotek bylo vyfoceno v rámci těch sto dní. Nepovažuji to za selhání.
+První padesátka byla celkem v pohodě. Chodím celkem často do kaváren nebo obecně do míst, kde dělají kávu. Takže jsem ze začátku necítil žádné změny. Zkrátka to ještě nebyla taková výzva. Po padesátce to začínalo být horší. Spousty oblíbených nebo blízkých míst jsem měl již vybrané a bylo potřeba podstatně více experimentovat. Začínala challenge. Občas vůbec nevycházelo načasování nebo se mi zkrátka fotka nepovedla. Začínalo se dříve stmívat a také se zjevil na okamžik i ten zatracený sníh! Na rovinu a upřímně říkám, že jsem si občas fotil i fotky jako “rezervu”. Často se mi stávalo, že jsem za jeden den navštívil více nových míst a na každém ochutnal kávu. Můj cíl byl každý den publikovat fotku a z tohoto tempa nevypadnout, nepřerušit to. Pětkrát jsem sáhl do těchto zásob. Zkrátka to nevyšlo, nicméně oněch pět fotek bylo vyfoceno v rámci těch sto dní. Nepovažuji to za selhání.
 
 Období 60-80 mi přišlo nejtěžší, vůbec mi to časově nevycházelo a mnohdy jsem musel velmi hýbat se svým denní plánem, abych tam nové místo zasadil. Naštěstí se to nějak vždy povedlo.
 
@@ -67,7 +67,7 @@ Nejlepší metoda na učení nových návyků je **pravidelnost**. Už dříve j
 
 ## Focení
 
-Hlavní náplň spočívala ve focení. Kreativita začne hned ze začátku. Přeci jen nechcete mít 100 zcela totožných fotek a tak si začnete s hrníčkem všelijak hrát a komponovat scénu. Naučíte se výrazně lépe pracovat s foťákem a hlavně začnete fotku vnímat jako čtverec :) Protože prostě Instagram. Můj proces byl takový, že jsem si kávu nejdříve vyfotil a sdílel až později, když byl čas. Kupříkladu v tramvaji, večer, čekaní na zástavce, … prostě když byla volná chvilka a byl jsem sám, nebudu přeci podporovat (phubbing)[http://stopphubbing.com/]. Fotek jsem tedy vždy dělal více. Což bylo peklo. Občas vzniklo i desítky různých fotek a vybrat pak něco nebylo vůbec lehké. Tohoto zlozvyku se chci zbavit, ideálně fotit na první dobrou! Občas jsem i později zjistil, že se fotky moc nepovedli. Což mě mrzelo zejména u kaváren, které měli úžasné prostředí a byla nesmírná škoda, že se to nepovedlo řádně zachytit. Nebo vám scénu zabil nakonec černobílý filtr.
+Hlavní náplň spočívala ve focení. Kreativita začne hned ze začátku. Přeci jen nechcete mít 100 zcela totožných fotek a tak si začnete s hrníčkem všelijak hrát a komponovat scénu. Naučíte se výrazně lépe pracovat s foťákem a hlavně začnete fotku vnímat jako čtverec :) Protože prostě Instagram. Můj proces byl takový, že jsem si kávu nejdříve vyfotil a sdílel až později, když byl čas. Kupříkladu v tramvaji, večer, čekaní na zástavce, … prostě když byla volná chvilka a byl jsem sám, nebudu přeci podporovat (phubbing)[http://stopphubbing.com/]. Fotek jsem tedy vždy dělal více. Což bylo peklo. Občas vzniklo i desítky různých fotek a vybrat pak něco nebylo vůbec lehké. Tohoto zlozvyku se chci zbavit, ideálně fotit na první dobrou! Občas jsem i později zjistil, že se fotky moc nepovedly. Což mě mrzelo zejména u kaváren, které měli úžasné prostředí a byla nesmírná škoda, že se to nepovedlo řádně zachytit. Nebo vám scénu zabil nakonec černobílý filtr.
 
 Během dne vyfotíte více míst a pak nevíte, které vybrat. No a na rovinu. Když si sofistikovaně začnete fotit kávu - vypadáte jako blázni.  Plánuji udělat krátkou session o tom, jak lze fotit hrnek kávy! Těšte se!
 
@@ -75,7 +75,7 @@ Během dne vyfotíte více míst a pak nevíte, které vybrat. No a na rovinu. K
 
 ## Moje top místa!
 
-Úplně se to nabízí - hodnotit a recenzovat místa. Od začátku jsem nic takového neplánoval dělat. Ale i tak bych rád teď vypíchl pět míst, které mi přišli úplně nejvíc nejlepší. Ať už atmosférou, možná jsem měl zrovna super náladu, prostě mi nějak uvízli v hlavě a rád se tam vždy vrátím (už tak vlastně činím teď). Pořadí nedělám, jen vypichuji pět míst:
+Úplně se to nabízí - hodnotit a recenzovat místa. Od začátku jsem nic takového neplánoval dělat. Ale i tak bych rád teď vypíchl pět míst, které mi přišly úplně nejvíc nejlepší. Ať už atmosférou, možná jsem měl zrovna super náladu, prostě mi nějak uvízly v hlavě a rád se tam vždy vrátím (už tak vlastně činím teď). Pořadí nedělám, jen vypichuji pět míst:
 
 - [Double B coffee & tea Praha](https://www.instagram.com/p/7NncbPJog5)
 - [Kavárna Místo](https://www.instagram.com/p/-y-jarJoto)
