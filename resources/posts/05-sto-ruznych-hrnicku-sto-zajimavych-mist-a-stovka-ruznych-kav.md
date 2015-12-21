@@ -55,7 +55,7 @@ Paralelně se začátkem výzvy jsem přestal používat Swarm. Takže mi to tro
 
 První padesátka byla celkem v pohodě. Chodím celkem často do kaváren nebo obecně do míst, kde dělají kávu. Takže jsem ze začátku necítil žádné změny. Zkrátka to ještě nebyla taková výzva. Po padesátce to začínalo být horší. Spousty oblíbených nebo blízkých míst jsem měl již vybrané a bylo potřeba podstatně více experimentovat. Začínala challenge. Občas vůbec nevycházelo načasování nebo se mi zkrátka fotka nepovedla. Začínalo se dříve stmívat a také se zjevil na okamžik i ten zatracený sníh! Na rovinu a upřímně říkám, že jsem si občas fotil i fotky jako “rezervu”. Často se mi stávalo, že jsem za jeden den navštívil více nových míst a na každém ochutnal kávu. Můj cíl byl každý den publikovat fotku a z tohoto tempa nevypadnout, nepřerušit to. Pětkrát jsem sáhl do těchto zásob. Zkrátka to nevyšlo, nicméně oněch pět fotek bylo vyfoceno v rámci těch sto dní. Nepovažuji to za selhání.
 
-Období 60-80 mi přišlo nejtěžší, vůbec mi to časově nevycházelo a mnohdy jsem musel velmi hýbat se svým denní plánem, abych tam nové místo zasadil. Naštěstí se to nějak vždy povedlo.
+Období 60-80 mi přišlo nejtěžší, vůbec mi to časově nevycházelo a mnohdy jsem musel velmi hýbat se svým denním plánem, abych tam nové místo zasadil. Naštěstí se to nějak vždy povedlo.
 
 Zásadní mínus pro mě bylo zanedbávání oblíbených míst. Navštívil jsem svou oblíbenou kavárnu, jelikož ale byla už zahrnuta v mém seznamu, tak jsem poté musel navštívit ještě nějakou další. Stával se ze mě profesionální kavárenský povaleč. Krásný byl i fakt, že na většině míst byl často někdo se mnou a mé sofistikované focení se začalo stávat atrakcí. Občas jsem fotil tajně, abych byl inkognito :)
 
