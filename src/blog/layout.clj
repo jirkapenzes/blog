@@ -45,7 +45,7 @@
    [:div {:id "content"}
     content]
    [:div {:id "footer"}
-    "by jirkapenzes 2015 (c)"]])
+    "by jirkapenzes 2016 (c)"]])
 
 (defn render [& content]
   (html5 { :lang "en" }
