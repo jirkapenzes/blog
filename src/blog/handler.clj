@@ -1,4 +1,5 @@
 (ns blog.handler
+  (:gen-class :main true)
   (:use ring.util.response
         org.httpkit.server)
   (:require [blog.posts :as posts]
@@ -54,6 +55,6 @@
   (wrap-defaults app-routes site-defaults))
 
 (defn -main [& args]
-  (let [port (Integer/parseInt (get (System/getenv) "OPENSHIFT_CLOJURE_HTTP_PORT" "8080"))]
-    (let [ip (get (System/getenv) "OPENSHIFT_CLOJURE_HTTP_IP" "0.0.0.0")]
-      (run-server app {:ip ip :port port}))))
+  (let [port (Integer/parseInt (or (System/getenv "PORT") "8080"))]
+    (run-server app {:port port})
+    (println (str "Listening on port " port))))
