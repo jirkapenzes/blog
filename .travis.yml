@@ -1,5 +1,10 @@
 language: clojure
 lein: lein
-script: lein do clean, deps, uberjar
+script:
+  - lein do clean, deps, uberjar
+  - docker build -t jirkapenzes/blog .
+  - docker login -e="$DOCKER_EMAIL" -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push jirkapenzes/blog
+
 branches:
   - master
