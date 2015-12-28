@@ -1,5 +1,10 @@
 language: clojure
 lein: lein
+sudo: required
+
+services:
+  - docker
+
 script:
   - lein do clean, deps, uberjar
   - docker build -t jirkapenzes/blog .
