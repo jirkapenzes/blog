@@ -1,0 +1,5 @@
+language: clojure
+lein: lein
+script: lein do clean, deps, uberjar
+branches:
+  - master
