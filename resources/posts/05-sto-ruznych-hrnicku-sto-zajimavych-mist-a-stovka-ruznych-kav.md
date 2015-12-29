@@ -2,6 +2,7 @@
 title: Sto různých hrníčků, sto zajímavých míst a stovka různých káv
 publish-date: 09.12.2015
 tags: coffee, challenge, kavárny
+published: true
 ---
 Hotovo, splněno! Mám za sebou stodenní kreativní výzvu. Byla to neskutečně úžasná zkušenost, která mě v mnoha směrech posunula. Nejen v pití kávy!
 

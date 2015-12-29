@@ -12,6 +12,7 @@
 (defn- exist-file? [file] (and (instance? File file) (.isFile file)))
 (defn- find-file [file-name] (first (filter #(= (.getName %) file-name) posts-files)))
 (defn- add-author [post] (assoc-in post [:author] "Jirka Pénzeš"))
+(def truthy? #{"true"})
 
 (defn- parse-header-line [line]
   (let [p (re-find #"([\S]+):([\s\S]+)" line)]
@@ -23,6 +24,7 @@
          (for [[section content] post]
            { section (case section
                        :title (trim content)
+                       :published (if (truthy? (trim content)) true false)
                        :tags (set (map trim (split content #",")))
                        :publish-date (parse (formatter "dd.MM.yyyy") (trim content))
                        :body (md-to-html-string content)
@@ -34,8 +36,8 @@
 
 (defn parse-file [file]
   (let [splitted-file (split-lines (slurp file))]
-    {:header  (rest (take 4 (split-lines (slurp file))))
-     :body (reduce #(str %1 "\r\n" %2) (drop 5 (split-lines (slurp file))))}))
+    {:header  (rest (take 5 (split-lines (slurp file))))
+     :body (reduce #(str %1 "\r\n" %2) (drop 6 (split-lines (slurp file))))}))
 
 (defn load-post [file]
   (-> (let [p (parse-file file)]
@@ -53,3 +55,6 @@
 
 (defn find-by-name [name]
   (load-post (find-file (str name ".md"))))
+
+ (last (find-all))
+(:published (last (find-all)))

@@ -2,6 +2,7 @@
 title: Volkswagenu je zcela v právu. Řešte raději příčiny!
 publish-date: 25.10.2015
 tags: politika
+published: true
 ---
 V posledních pár týdnech se z Volkswagenu (VW) stal celkem solidní mediální otloukánek. Ikdyž svět okolo aut zrovna nesleduji, tak skandál okolo se ke mě dostal rychle. K mé smůle jsem zahlédl jakousi politickou debatu, kde se “snažili” problém vyřešit a predikovali další potencionální následky. A právě to mě motivovalo sepsat článek, neboť si myslím, že **VW neudělal nic špatného a už vůbec by neměl platit žádnou pokutu**. Problém je totiž zcela jinde.
 

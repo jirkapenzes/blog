@@ -11,8 +11,12 @@
             [clj-rss.core :as rss]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]))
 
+(defn published? [post]
+  (= true (:published post)))
+
 (defn last-posts []
   (->> (posts/find-all)
+       (filter published?)
        (sort-by :publish-date)
        (reverse)))
 

@@ -2,6 +2,7 @@
 title: Jenom tisíc znaků
 publish-date: 10.02.2014
 tags: produktivita
+published: true
 ---
 S příchodem nového roku zkouším do svého života aplikovat metodu 1000 znaků.
 Metoda spočívá v napsání minimálně tisíce znaků každý den. O detailech a

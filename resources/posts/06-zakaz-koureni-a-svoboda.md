@@ -2,6 +2,7 @@
 title: Zákaz kouření a svoboda
 publish-date: 22.12.2015
 tags: politika, názor
+published: true
 ---
 Občas jsem konfliktní člověk, zejména když jde o téma, které mi není lhostejné. Cigareta je jedna z nejhorších věcí, kterou naše společnost trpí. Přál bych si, kdyby tu už nebyla. **Nevidím a nechápu zatím žádný důvod, který tvrdí opak.** Můžete mě zkusit přesvědčit.
 
