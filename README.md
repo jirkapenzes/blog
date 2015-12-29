@@ -1,5 +1,7 @@
 # blog
 
+<img src="https://travis-ci.org/jirkapenzes/blog.svg" alt="Travis" />
+
 FIXME
 
 ## Prerequisites
