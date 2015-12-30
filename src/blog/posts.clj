@@ -52,9 +52,5 @@
   (->> (find-all)
        (filter #(contains? (:tags %) tag))))
 
-
 (defn find-by-name [name]
   (load-post (find-file (str name ".md"))))
-
- (last (find-all))
-(:published (last (find-all)))
