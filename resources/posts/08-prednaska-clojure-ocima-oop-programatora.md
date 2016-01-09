@@ -15,7 +15,7 @@ Minulý rok jsem se snažil šířit povědomí o jazyce Clojure a hlavně své 
 
 ## Prezentace (slidy)
 
-Obsah přednášky vychází částečně z článku [Začátky s Clojure očima OOP programátora](./posts/02-zacatky-s-clojure-ocima-oop-programatora). Demo ukázku najdete na [Gistu](https://gist.github.com/jirkapenzes/0d9aa244f077480208ee).
+Obsah přednášky vychází částečně z článku [Začátky s Clojure očima OOP programátora](../posts/02-zacatky-s-clojure-ocima-oop-programatora). Demo ukázku najdete na [Gistu](https://gist.github.com/jirkapenzes/0d9aa244f077480208ee).
 
 <iframe src="https://docs.google.com/presentation/d/1YI6NnJtYWYsZDjzXFvTU-ZVQUW20UHr2KD5dVkQc9Qg/embed?start=false&loop=false"
   frameborder="0" width="560" height="344" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
