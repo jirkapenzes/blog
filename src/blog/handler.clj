@@ -59,6 +59,6 @@
   (wrap-defaults app-routes site-defaults))
 
 (defn -main [& args]
-  (let [port (Integer/parseInt (or (System/getenv "PORT") "8080"))]
+  (let [port (Integer/parseInt (or (System/getenv "PORT") "8081"))]
     (run-server app {:port port})
     (println (str "Listening on port " port))))
